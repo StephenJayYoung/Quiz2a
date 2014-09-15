@@ -1,7 +1,8 @@
 var chai = require("chai");
 var expect = chai.expect;
 var path = require("path");
-var gimmeFullName = require('./index');
+var lib = require('../index');
+var gimmeFullName = lib.gimmeFullName;
 
 
 //@ param object which includes the properties first name and lastname
@@ -10,15 +11,17 @@ var gimmeFullName = require('./index');
 //
 
 
+
 describe("gimmeFullName()", function() {
   // given an object, it returns the objects first and last name
   it("provides us with the objects first and last name", function() {
-    //adds the sum of firstName and lastName
-  expect(gimmeFullName).to.eql("Steve Young");  
- });  });  
+    //adds the firstName and lastName
+		var stevePerson = {
+		  "firstName": "Steve",
+		  "lastName": "Young",
+		};
+	  expect(gimmeFullName(stevePerson)).to.eql("Steve Young");  
+  });  
+});  
 
- var person = {
-      "firstName": "Steve",
-      "lastName": "Young",
- };
 
