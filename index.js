@@ -8,19 +8,16 @@ module.exports.gimmeFullName = function(genericPersonThing) {
 
 
 
+// /**
+//  * Calculate many people's first names.
+//  *
+//  * @param {Array.<Person>} people The people.
+//  * @return {Array.<String>} The people's first names.
+//  */
 
-
-
-
-// var people = {firstName: "Kali",
-
-
-//  lastName: "Kiger"};
-
-// var people = ["kali", "kiger"];
-
-// var fullName = function() {
-//  console.log("Their full names are " + people[0] + "and" + people[1];
-// };
-
-// fullName(people);
+// module.exports.gimmeFullNames = function(people) {
+// //   // if you're having trouble here, slow down. don't just guess and throw code
+// //   // in. one thing that is often helpful is to write out the steps of what you
+// //   // want to do in comments, then take the comments one by one and translate
+// //   // them into the required steps.
+// // };

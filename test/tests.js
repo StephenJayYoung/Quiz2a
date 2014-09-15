@@ -20,8 +20,14 @@ describe("gimmeFullName()", function() {
 		  "firstName": "Steve",
 		  "lastName": "Young",
 		};
-	  expect(gimmeFullName(stevePerson)).to.eql("Steve Young");  
+	  expect(gimmeFullName(stevePerson)).to.eql("SteveYoung");  
   });  
 });  
 
+// describe('gimmeFullNames()', function() {
+// 	it ('returns all people\'s full names', function() {
+// //     // follow the same procedure as above.
+// //   });
+
+// // });
 
