@@ -3,6 +3,7 @@ var expect = chai.expect;
 var path = require("path");
 var lib = require('../index');
 var gimmeFullName = lib.gimmeFullName;
+var gimmeBandFullNames = lib.gimmeBandFullNames;
 
 
 //@ param object which includes the properties first name and lastname
@@ -24,21 +25,15 @@ describe("gimmeFullName()", function() {
   });  
 });  
 
+
+
 describe('gimmeBandFullNames()', function() {
 	//given an array, it returns the objects in the array
-it ('returns all people\'s full names', function() {
-	//runs a forEach function and 
-// will need to edit the syntax of this array below...
-array = [
-	person1:
-	hisFirstName: 'Shakey';
-	hisLastName: 'Graves';
-
-	person2:
-	hisFirstName: 'TheTallestMan';
-	hisLastName: 'OnEarth';
-]	
-expect(gimmeBandFullNames(array)).to.eql("Shakey Graves", "TheTallestMan OnEarth");  
+it ('returns all band\'s full names', function() {
+	//runs a forEach function and provides the first and last name of each band in array
+var bandsArray = ['Shakey Graves', 'The Tallest Man On Earth'];
 	});
-});
+expect(gimmeBandFullNames(bandsArray)).to.eql(["Shakey Graves", "TheTallestMan OnEarth"]);  
+	});
+
 

@@ -7,13 +7,7 @@ module.exports.gimmeFullName = function(genericPersonThing) {
  };
 
 
-
-module.exports.gimmeFullBandNames = function(genericPersonThing) {
-  var result = forEach;
-  return result;
- };
-
-
+//second problem
 // /**
 //  * Calculate many people's first names.
 //  *
@@ -21,9 +15,20 @@ module.exports.gimmeFullBandNames = function(genericPersonThing) {
 //  * @return {Array.<String>} The people's first names.
 //  */
 
-// module.exports.gimmeFullNames = function(people) {
-// //   // if you're having trouble here, slow down. don't just guess and throw code
-// //   // in. one thing that is often helpful is to write out the steps of what you
-// //   // want to do in comments, then take the comments one by one and translate
-// //   // them into the required steps.
-// // };
+module.exports.gimmeFullBandNames = function(bandNames) {
+  var result = bandNames.array('Shakey Graves', 'The TallestMan onEarth');
+  result.forEach(bandNames) function {
+
+  }
+  return result;
+ };
+
+// need to access the array, and will need to create a variable that adds firstname and lastname for each person
+// after this array is accessed, will need to create a new array that calls on this function using .push
+//lastly, will need to return this new array using return
+
+
+
+
+
+
