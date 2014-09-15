@@ -8,6 +8,12 @@ module.exports.gimmeFullName = function(genericPersonThing) {
 
 
 
+module.exports.gimmeFullBandNames = function(genericPersonThing) {
+  var result = forEach;
+  return result;
+ };
+
+
 // /**
 //  * Calculate many people's first names.
 //  *

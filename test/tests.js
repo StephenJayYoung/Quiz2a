@@ -24,10 +24,21 @@ describe("gimmeFullName()", function() {
   });  
 });  
 
-// describe('gimmeFullNames()', function() {
-// 	it ('returns all people\'s full names', function() {
-// //     // follow the same procedure as above.
-// //   });
+describe('gimmeBandFullNames()', function() {
+	//given an array, it returns the objects in the array
+it ('returns all people\'s full names', function() {
+	//runs a forEach function and 
+// will need to edit the syntax of this array below...
+array = [
+	person1:
+	hisFirstName: 'Shakey';
+	hisLastName: 'Graves';
 
-// // });
+	person2:
+	hisFirstName: 'TheTallestMan';
+	hisLastName: 'OnEarth';
+]	
+expect(gimmeBandFullNames(array)).to.eql("Shakey Graves", "TheTallestMan OnEarth");  
+	});
+});
 
